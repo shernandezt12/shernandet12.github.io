@@ -7,30 +7,35 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #f0f4f8;
+      background: #f7f7f7;
       margin: 0;
       padding: 0;
       color: #333;
     }
 
     header {
-      background: linear-gradient(90deg, #4f46e5, #6d28d9);
+      background: linear-gradient(90deg, #08dece, #e6c80d);
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
     main {
       max-width: 900px;
-      margin: 30px auto;
+      margin: 40px auto;
       background-color: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
     }
 
-    h1, h2 {
-      color: #4f46e5;
+    h1, h2, h3, h4 {
+      color: #333;
+    }
+
+    h1 {
+      font-size: 2rem;
     }
 
     p {
@@ -39,11 +44,37 @@
       margin-bottom: 20px;
     }
 
+    img {
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      margin: 10px;
+      object-fit: cover;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
       color: #555;
+      background-color: #eee;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -53,25 +84,52 @@
   </header>
 
   <main>
-    <p>Mi nombre es Santos Francisco Hernández Tepen, nací el 30 de octubre de 1999 en la Zona 6 de la Ciudad de Guatemala. Desde mi infancia, crecí rodeado de las calles y rincones de una aldea ubicada en San Pedro Ayampuc, llamada San José Nacahuil, donde di mis primeros pasos y formé mis primeros recuerdos. Mis padres siempre se esforzaron por brindarme una educación de calidad y un ambiente propicio para mi desarrollo.</p>
+    <section class="center">
+      <img src="IMAGEN7.jpg" alt="Foto personal" width="200" height="200">
+    </section>
 
-    <p>Aprendí algunas cosas de la agricultura desde muy pequeño, ya que mis abuelos se dedicaban a la agricultura y a la elaboración de carbón. A los seis años, inicié mi vida escolar en San Pedro Ayampuc, donde aprendí los valores básicos de la educación y formé mis primeras amistades. Poco después, nos mudamos a la capital.</p>
+    <section>
+      <p>Mi nombre es Santos Francisco Hernández Tepen. Mis padres, Timoteo Hernández y Estefana Monroy, siempre se esforzaron por brindarme una educación de calidad y un ambiente propicio para mi desarrollo.</p>
 
-    <p>En la Ciudad de Guatemala estudié en la escuela República de El Salvador, ubicada en Monserrat. Fue una etapa de adaptación, pero pronto me integré y continué mi formación. Desde temprana edad, me interesó la tecnología y la computación. Mis padres apoyaron ese interés proporcionándome libros y recursos educativos. También desarrollé una gran pasión por la lectura.</p>
+      <p>Nací el 30 de octubre de 1999 en el IGSS de Zona 6 de la Ciudad de Guatemala. Desde mi infancia crecí en la aldea San José Nacahuil, San Pedro Ayampuc, donde di mis primeros pasos y formé mis primeros recuerdos. A los seis años estudié párvulos allí, y luego me mudé a la capital.</p>
 
-    <p>Después de la primaria, estudié en el Instituto Nacional de Educación Básica (INEB) Monteverde. Mis intereses en la computación se consolidaron. Participé en clubes de ciencia y tecnología, lo que despertó mi interés por la programación, en especial con HTML y JavaScript.</p>
+      <p>Mi educación primaria la realicé en la Escuela Rural Mixta República de El Salvador. Más tarde, cursé los básicos en el Instituto INEB Monte Verde. En 2016, comencé mis estudios en el Colegio Mixto Belén, donde me apasioné por tres materias: 1) Lógica Matemática, 2) Física Fundamental, y 3) Base de Datos.</p>
 
-    <p>En el ciclo básico también descubrí mi pasión por el fútbol. Una experiencia especial fue cuando, sin estar en ningún equipo, guié a un grupo improvisado hacia la victoria, lo que me convirtió en el capitán de mi sección. Este liderazgo me dio reconocimiento en el instituto.</p>
+      <p>En 2017 me gradué como Bachiller en Computación con orientación comercial. Aunque mi meta siempre fue estudiar Ingeniería en Sistemas, las limitaciones económicas retrasaron mi ingreso a la universidad, iniciando así otra etapa de mi vida.</p>
+    </section>
 
-    <p>Aunque el fútbol comenzó a ocupar mucho de mi tiempo, también cultivé mi interés por las matemáticas y la física. Me fascinaban temas como las leyes de Newton y las constelaciones. Participé en la feria de ciencias con un proyecto sobre estas leyes.</p>
+    <section class="center">
+      <p>En 2017 aprendí a tocar guitarra y formé parte de una estudiantina llamada <strong>HORIZONTE</strong>.</p>
+      <img src="IMAGEN1.jpg" alt="Estudiantina Horizonte" width="200" height="200">
+    </section>
 
-    <p>Posteriormente estudié en el Colegio Mixto Belén, optando por el Bachillerato en Computación. Aprendí sobre software, hardware y lógica de programación, lo cual disfruté profundamente. Logré destacarme académicamente.</p>
+    <section>
+      <p>En 2018, luego de varios trabajos informales, empecé a trabajar en el restaurante <strong>Panda Express</strong> como cocinero. Más adelante aprendí sobre servicio al cliente, caja y terminé desarrollando el rol de capacitador. Fui parte del equipo ganador de un concurso interno. En 2024 finalicé mi etapa en Panda Express y trabajé el resto del año como digitador en supermercados La Casita.</p>
+    </section>
 
-    <p>A los 18 años trabajé en Panda Express durante cuatro años. Ascendí a capacitador, lo cual me permitió comprender diferentes estilos de aprendizaje. Aprendí a manejar la presión y a trabajar en equipo. Luego trabajé un año en Supermercados La Casita, donde mejoré mis habilidades organizativas y de liderazgo.</p>
+    <section>
+      <h3>Actividades que disfruto realizar:</h3>
+      <ol>
+        <li>Jugar fútbol</li>
+        <li>Escuchar sinfonías de orquestas</li>
+        <li>Tocar guitarra</li>
+        <li>Entrenar en el gimnasio</li>
+      </ol>
+    </section>
 
-    <p>A los 17 años descubrí una nueva pasión: la música. Aprendí a tocar guitarra, lo que se convirtió en una vía de expresión personal. Más adelante ingresé al Conservatorio Nacional de Música Miguel Ángel Alcántara, pero un accidente interrumpió temporalmente mis estudios. Aun así, sigo con el deseo de retomar la música.</p>
+    <section>
+      <h4>Lugares que he visitado:</h4>
+      <div class="gallery">
+        <img src="IMAGEN2.jpg" width="200" height="200" alt="Lago de Atitlán">
+        <img src="IMAGEN3.jpg" width="200" height="200" alt="Finca Escondida">
+        <img src="IMAGEN4.jpg" width="200" height="200" alt="Altamira">
+        <img src="IMAGEN5.jpg" width="200" height="200" alt="Cumbre del Tajumulco">
+      </div>
+    </section>
 
-    <p>Actualmente tengo 24 años y estudio Ingeniería en Sistemas en la Universidad Mariano Gálvez. Esta carrera representa un gran reto y una oportunidad para contribuir al mundo de la tecnología. Mi meta es ser una persona de valor más allá del éxito profesional.</p>
+    <section>
+      <p>Actualmente tengo 24 años y estudio Ingeniería en Sistemas en la Universidad Mariano Gálvez. Esta carrera representa un gran reto y una oportunidad para contribuir al mundo de la tecnología. Mi meta es ser una persona de valor más allá del éxito profesional.</p>
+    </section>
   </main>
 
   <footer>
